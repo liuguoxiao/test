@@ -1,0 +1,23 @@
+AQI_mutation:
+  AQI_threshold: 50
+  AQI_window_size: 4
+  lookback: 33
+  lookforward: 33
+  min_threshold: 20
+Station:
+  station: 0
+ratio:
+  train_ratio: 0.6
+  valid_ratio: 0.3
+Batch:
+  batch_size: 32
+Model:
+#  option: BiLSTM
+#  option: MLP
+#  option: Transformer
+#  option: LSTM
+  option: GRU
+#  option: CNN_LSTM
+#  option: Seq2Seq
+#  option: LSTM_att
+#  option: CausalConv1d_LSTM
